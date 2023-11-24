@@ -11,25 +11,34 @@
         </template>
     </category>
     
-    
     <category>
-        <pattern>CUÉNTAME SOBRE EL VIEDEOJUEGO DE FIFA</pattern>
+        <pattern>Si sobre fifa </pattern>
         <template>
-            <random>
-                <li>Oh, ¿te refieres aL FIFA ? ¡Es un juego increíble!</li>
-                <li>Conozco FIFA, ¿qué específicamente te gustaría saber sobre él?</li>
-                <li>FIFA es genial, ¿has jugado alguna vez?</li>
-            </random>
+            Conozco FIFA, ¿qué específicamente te gustaría saber sobre él?
         </template>
-    </category>
+    </category> 
     
+     <category>
+        <pattern>QUE FIFA ES MEJOR </pattern>
+        <template>
+            por las estadisticas en los jugadores diria que fifa 2024 
+        </template>
+    </category> 
+     
     <category>
-        <pattern>¿CUÁL ES TU JUEGO FAVORITO?</pattern>
-        <template>Mi juego favorito es el de las conversaciones interesantes sobre videojuegos. ¿Y el tuyo?</template>
+        <pattern>CUAL ES TU JUEGO FAVORITO</pattern>
+        <template>
+            Mi juego favorito es el de residnet evil. ¿Y el tuyo?
+        </template> 
     </category>
 
     <category>
-        <pattern>NO ME GUSTAN LOS VIDEOJUEGOS</pattern>
-        <template>¡Oh, entiendo! ¿Hay algo más de lo que te gustaría hablar?</template>
+        <pattern>GOD OF WAR</pattern>
+        <template>me parece que e sun gran juego  ¿De todos cuales tu favorito ?</template>
+    </category>
+    
+     <category>
+        <pattern>Donde pelea con zeus</pattern>
+        <template>Es uno de los mas vendidos ¿juegas algo mas?</template>
     </category>
 </aiml>
