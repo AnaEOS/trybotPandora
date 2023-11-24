@@ -11,12 +11,13 @@
                 <li>Muy buen día ¿quiere saber las entradas o elige sopa de una vez?</li>
             </random> 
         </template>
-    
     </category>
+    
     <category>
         <pattern>ENTRADAS</pattern>
         <template>Tenemos palitos de apio, ensalada o fruta picada </template>
     </category>
+    
     <category>
         <pattern>SOPA</pattern>
         <template>¿Quieres sopa del dia o consome?</template>
