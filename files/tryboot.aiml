@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>HOLA</pattern>
-        <template>Binevenido ¿Quieres saber cuales son las entradas o vamos a la sopa? </template>
+        
+        <pattern>HOLAA</pattern>
+        <template>
+            <random>
+                <li>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
+                <li>Buen día ¿toma entrada o empieza con la sopa?</li>
+                <li>Sea bienvenide. ¿le digo las entradas o pasamos a la sopa?</li>
+                <li>Muy buen día ¿quiere saber las entradas o elige sopa de una vez?</li>
+            </random> 
+        </template>
+    
     </category>
     <category>
         <pattern>ENTRADAS</pattern>
@@ -21,16 +30,6 @@
         
     </category>
     
-    <category>
-        <pattern>HOLAA</pattern>
-        <template>
-            <random>
-                <li>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
-                <li>Buen día ¿toma entrada o empieza con la sopa?</li>
-                <li>Sea bienvenide. ¿le digo las entradas o pasamos a la sopa?</li>
-                <li>Muy buen día ¿quiere saber las entradas o elige sopa de una vez?</li>
-            </random>
-        </template>
-    </category>
+    
 
 </aiml>
