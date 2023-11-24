@@ -11,10 +11,21 @@
         </template>
     </category>
     
+    <cayegory>
+        <paterrn>Si</paterrn>
+        <template>
+            <random>
+                <li>Suelo jugar siempre con mis amigos bots </li>
+                <li>Me gustan mas los FIFA y algunos otros</li>
+                <li>Si especialemnte los de futboolt en nintendo</li>
+            </random> 
+        </template>
+    </cayegory>
+    
     <category>
         <pattern>CUÉNTAME SOBRE EL VIEDEOJUEGO DE FIFA</pattern>
         <template>
-            <think><set name="videojuego"><star/></set></think>
+            
             <random>
                 <li>Oh, ¿te refieres aL FIFA ? ¡Es un juego increíble!</li>
                 <li>Conozco FIFA, ¿qué específicamente te gustaría saber sobre él?</li>
