@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>No puedo entenderte dime "hola".</template>
-  </category>
-</aiml>  
+        <pattern>HOLA</pattern>
+        <template>
+            <random>
+                <li>Hola, ¿quieres hablar sobre videojuegos?</li>
+                <li>¡Saludos! ¿Te gustan los videojuegos?</li>
+                <li>¡Hola! ¿Eres fanático de los videojuegos?</li>
+            </random> 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CUÉNTAME SOBRE EL VIEDEOJUEGO DE FIFA</pattern>
+        <template>
+            <think><set name="videojuego"><star/></set></think>
+            <random>
+                <li>Oh, ¿te refieres aL FIFA ? ¡Es un juego increíble!</li>
+                <li>Conozco FIFA, ¿qué específicamente te gustaría saber sobre él?</li>
+                <li>FIFA es genial, ¿has jugado alguna vez?</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>¿CUÁL ES TU JUEGO FAVORITO?</pattern>
+        <template>Mi juego favorito es el de las conversaciones interesantes sobre videojuegos. ¿Y el tuyo?</template>
+    </category>
+
+    <category>
+        <pattern>NO ME GUSTAN LOS VIDEOJUEGOS</pattern>
+        <template>¡Oh, entiendo! ¿Hay algo más de lo que te gustaría hablar?</template>
+    </category>
+</aiml>
