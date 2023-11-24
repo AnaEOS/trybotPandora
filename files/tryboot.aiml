@@ -22,7 +22,7 @@
     </category>
     
     <category>
-        <pattern>HOLA</pattern>
+        <pattern>HOLAA</pattern>
         <template>
             <random>
                 <li>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
